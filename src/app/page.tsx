@@ -1,6 +1,8 @@
 // import Image from 'next/image'
 import HeroSection from "@/components/Hero";
 import Navigation from "@/components/Navigation";
+import Projects from "@/components/Projects";
+import Services from "@/components/Service";
 import { Rubik } from "next/font/google";
 import styles from "./page.module.css";
 
@@ -13,6 +15,8 @@ export default function Home() {
       <div className="col-span-10 md:col-span-4">
         <Navigation />
         <HeroSection/>
+        <Projects />
+        <Services />
       </div>
       <div className="col-span-1"></div>
     </main>
