@@ -7,20 +7,20 @@ const Navigation = () => {
       <div className="text-primary font-bold text-2xl">THK 🚀</div>
       <ul className="flex items-center space-x-4">
         <li>
-          <Link href="/projects">
+          {/* <Link href="/projects">
             <div className="text-primary hover:text-purple">Projects</div>
-          </Link>
+          </Link> */}
         </li>
         <li>
           <Link href="/blog">
             <div className="text-primary hover:text-purple">Blog</div>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/contact">
             <div className="text-primary hover:text-purple">Contact</div>
           </Link>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://twitter.com/TKobierecki"

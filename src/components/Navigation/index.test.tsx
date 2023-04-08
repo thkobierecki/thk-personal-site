@@ -10,11 +10,11 @@ describe("Navigation", () => {
     expect(thkText).toBeInTheDocument();
   });
 
-  it("renders the Projects link", () => {
-    render(<Navigation />);
-    const projectsLink = screen.getByRole("link", { name: "Projects" });
-    expect(projectsLink).toBeInTheDocument();
-  });
+  // it("renders the Projects link", () => {
+  //   render(<Navigation />);
+  //   const projectsLink = screen.getByRole("link", { name: "Projects" });
+  //   expect(projectsLink).toBeInTheDocument();
+  // });
 
   it("renders the Blog link", () => {
     render(<Navigation />);
@@ -22,11 +22,11 @@ describe("Navigation", () => {
     expect(blogLink).toBeInTheDocument();
   });
 
-  it("renders the Contact link", () => {
-    render(<Navigation />);
-    const contactLink = screen.getByRole("link", { name: "Contact" });
-    expect(contactLink).toBeInTheDocument();
-  });
+  // it("renders the Contact link", () => {
+  //   render(<Navigation />);
+  //   const contactLink = screen.getByRole("link", { name: "Contact" });
+  //   expect(contactLink).toBeInTheDocument();
+  // });
 
   it("renders the Twitter icon", () => {
     render(<Navigation />);
